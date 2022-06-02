@@ -1,3 +1,7 @@
 # Computational Actuarial Science
 
-This is the wiki for the project. Also put .ipynb files in here. We will probably end up writing a LateX document and publish to arXiv, that TeX will live here too. So this is like a monorepo. Unless it needs to not be a monorepo, we'll figure it out.
+Put .ipynb files in here. Questions to answer - 
+
+* How much space will it take up in a computer to calculate `P policies` over `T timesteps` and `N scenarios`. I think it is PxTxN, is it? In terms of space on the actual computer (in GB) how much is this going to take up?
+* Do we need the "full cube" to do the calculation? Or can we do intermediate aggregations to reduce the overall space required? How does this impact the time it takes to run the simulations?
+
